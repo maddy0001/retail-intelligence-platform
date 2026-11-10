@@ -167,9 +167,10 @@ Status column: mark ✅ pass / ❌ fail during your run.
 
 | ID | Test | Steps | Expected result | Status |
 |---|---|---|---|---|
-| REV-01 | Write a review | On a product, give 5 stars + title | Review appears at the top; product rating count +1 | |
+| REV-01 | Write a review | On a product from a shipped/delivered order, give 5 stars + title | Review appears at the top; product rating count +1 | |
+| REV-02 | Review before shipping | Try to review a product whose order is still processing | "You can review products you've bought once they've shipped." | |
 | REV-03 | Duplicate review | Review the same product again | "You've already reviewed this product." | |
-| REV-02 | Verify | Compass → `reviews` filter `{ source: "app" }` | New review document referencing `product_id` | |
+| REV-04 | Verify | Compass → `reviews` filter `{ source: "app" }` | New review document referencing `product_id` | |
 
 ### 4.9 Personalisation (ML outputs used live)
 

@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Front end
+frontend/node_modules/
+
+# Data and generated models (re-create with data/load_olist_data.py and ml/run_all.py)
+ml/models/
+
+# OS
+.DS_Store

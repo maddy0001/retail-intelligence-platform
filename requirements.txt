@@ -1,0 +1,18 @@
+# Back end + data + ML
+pymongo>=4.6
+fastapi>=0.115
+uvicorn[standard]>=0.30      # [standard] brings WebSocket support
+pyjwt>=2.8
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+joblib>=1.3
+
+# Tests and the ML notebook (not needed to run the app)
+pytest>=8
+httpx>=0.27
+nbformat>=5.10
+nbclient>=0.10
+ipykernel>=6.29
+matplotlib>=3.9

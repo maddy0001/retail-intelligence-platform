@@ -1,0 +1,14 @@
+About the files in this folder
+==============================
+
+These CSV files are the "Brazilian E-Commerce Public Dataset by Olist":
+about 100,000 real orders placed at Olist, a Brazilian marketplace, from 2016 to 2018.
+
+  Source:  https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+  Licence: CC BY-NC-SA 4.0 (attribution, non-commercial, share-alike)
+
+They are included unchanged so that Kartiq can be set up without a Kaggle account,
+for non-commercial, educational use only. The dataset's geolocation file is left out
+because the app does not use it.
+
+scripts/setup_kartiq.py loads them into MongoDB (data/load_olist_data.py).
